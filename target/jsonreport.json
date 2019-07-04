@@ -1,0 +1,636 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Register with valid credentials for any user",
+        "description": "",
+        "id": "register;register-with-valid-credentials-for-any-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10578497700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens Register page in TestMe application",
+            "match": {
+              "location": "Regiscase1.user_opens_Register_page_in_TestMe_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 413028100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username as \"sushmi\" and firstname as \"kennedy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sushmi\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"kennedy\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Regiscase1.user_enter_username_as_and_firstname_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168633500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters lastname as \"kumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kumar\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Regiscase1.user_enters_lastname_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148819400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters password as \"LordMuruga\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LordMuruga\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Regiscase1.user_enters_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140877900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters conpasswd as \"LordMuruga\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LordMuruga\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Regiscase1.user_enters_conpasswd_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122431000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters gender as \"Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Female\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Regiscase1.user_enters_gender_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198591800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters email as \"sush54@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sush54@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Regiscase1.user_enters_email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146334300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters mobileno as \"8608992027\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8608992027\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Regiscase1.user_enters_mobileno_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223616900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters dob as \"23-03-1998\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23-03-1998\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Regiscase1.user_enters_dob_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141870600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters address as \"abc,xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc,xyz\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Regiscase1.user_enters_address_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects secquestion as \"What is your favourite colour\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What is your favourite colour\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Regiscase1.user_selects_secquestion_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82128300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters answer as \"Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blue\"",
+                  "offset": 22
+                }
+              ],
+              "location": "Regiscase1.user_enters_answer_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 405307900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click Register button",
+            "match": {
+              "location": "Regiscase1.click_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 291000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify register process",
+            "match": {
+              "location": "Regiscase1.verify_register_process()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "register",
+    "description": "Description: User can register into the Test Me App to purchase products",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "src/main/resources/casecucumber1.Feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login with valid combination",
+        "description": "",
+        "id": "login-test;login-with-valid-combination;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9250128600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens login page in TestMe application",
+            "match": {
+              "location": "Logincase2.user_opens_login_page_in_TestMe_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138485500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters un as \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Logincase2.user_enters_un_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137069200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 8
+                }
+              ],
+              "location": "Logincase2.user_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6088899000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click Signin button",
+            "match": {
+              "location": "Logincase2.click_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify loginn success",
+            "match": {
+              "location": "Logincase2.verify_loginn_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "Description: Registered user can login into application using valid username and valid password",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "src/main/resources/casecucumber2.Feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login with valid credentials and search for a product",
+        "description": "",
+        "id": "searching-product;login-with-valid-credentials-and-search-for-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12361961400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens login page in TestMee application",
+            "match": {
+              "location": "searcase3.user_opens_login_page_in_TestMee_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161468000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "userr enters un as \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 19
+                }
+              ],
+              "location": "searcase3.userr_enters_un_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176418200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "userr enters pd  as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "searcase3.userr_enters_pd_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9384038500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click signin button",
+            "match": {
+              "location": "searcase3.click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540825200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "userr searches for headphones in sb as \"head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 39
+                }
+              ],
+              "location": "searcase3.userr_searches_for_headphones_in_sb_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "userr selects headphones from suggestion list",
+            "match": {
+              "location": "searcase3.userr_selects_headphones_from_suggestion_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "userr clicks on find button",
+            "match": {
+              "location": "searcase3.userr_clicks_on_find_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155654400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify loginn succes",
+            "match": {
+              "location": "searcase3.verify_loginn_succes()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching product",
+    "description": "Description: Registered user can login into application using valid username and valid password",
+    "id": "searching-product",
+    "keyword": "Feature",
+    "uri": "src/main/resources/casecucumber3.Feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login with valid credentials and search for a product",
+        "description": "",
+        "id": "searching-product;login-with-valid-credentials-and-search-for-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11052888500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open login page in TestMee application",
+            "match": {
+              "location": "cartcase4.user_open_login_page_in_TestMee_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144130100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "userr enter un as \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 18
+                }
+              ],
+              "location": "cartcase4.userr_enter_un_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135666000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "userr enter pd  as \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 19
+                }
+              ],
+              "location": "cartcase4.userr_enter_pd_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5971330200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click signinn button",
+            "match": {
+              "location": "cartcase4.click_signinn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1414942300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "userr searche for headphones in sb as \"head\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"head\"",
+                  "offset": 38
+                }
+              ],
+              "location": "cartcase4.userr_searche_for_headphones_in_sb_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "userr select headphones from suggestion list",
+            "match": {
+              "location": "cartcase4.userr_select_headphones_from_suggestion_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295564100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "userr click on find button",
+            "match": {
+              "location": "cartcase4.userr_click_on_find_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25209100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on cart button",
+            "match": {
+              "location": "cartcase4.click_on_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify cart is empty or not",
+            "match": {
+              "location": "cartcase4.verify_cart_is_empty_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching product",
+    "description": "Description: Registered user can login into application using valid username and valid password",
+    "id": "searching-product",
+    "keyword": "Feature",
+    "uri": "src/main/resources/casecucumber4.Feature",
+    "tags": []
+  }
+]
